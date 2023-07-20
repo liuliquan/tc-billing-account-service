@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tc-billing-account-service
+  tags:
+    - java
+  annotations:
+    backstage.io/source-location: url:https://github.com/topcoder-platform/tc-billing-account-service
+    github.com/project-slug: topcoder-platform/tc-billing-account-service
+spec:
+  type: service
+  owner: backstage-dev
+  lifecycle: production
